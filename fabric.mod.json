@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ezbumhikvisuals",
+  "version": "${version}",
+  "name": "EzbumhikVisuals",
+  "description": "Visual-only HUD client. Founder: ezbumhikvisuals",
+  "authors": ["ezbumhikvisuals"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.ezbumhikvisuals.EzbumhikClient"] },
+  "mixins": ["ezbumhikvisuals.mixins.json"],
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.4", "java": ">=21", "fabric-api": "*" }
+}
